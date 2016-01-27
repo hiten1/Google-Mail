@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="search_overlay_view">false</item>
+    <item type="id" name="search_overlay_scrim">false</item>
+    <item type="id" name="search_actionbar_query_text">false</item>
+    <item type="id" name="search_overlay_suggestion_list">false</item>
+</resources>

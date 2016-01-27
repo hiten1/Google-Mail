@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="NotificationSecondaryText">
-        <item name="android:textColor">#fffafafa</item>
-    </style>
     <style name="ChipTitleStyle">
         <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
@@ -34,33 +31,41 @@
         <item name="android:backgroundTint">@android:color/background_dark</item>
     </style>
     <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
-        <item name="android:colorBackground">@android:color/background_dark</item>
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">@android:color/holo_blue_light</item>
+        <item name="android:windowBackground">@android:color/holo_blue_light</item>
         <item name="android:textColor">#ffffffff</item>
-        <item name="android:backgroundTint">@android:color/background_dark</item>
+        <item name="android:backgroundTint">@android:color/holo_blue_light</item>
     </style>
     <style name="Base.Widget.AppCompat.SearchView" parent="@android:style/Widget">
-        <item name="android:background">#ff272727</item>
-        <item name="android:backgroundTint">#ff272727</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
+        <item name="android:backgroundTint">@android:color/holo_blue_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Inverse" parent="@android:style/TextAppearance.Material" />
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large" />
     <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium" />
     <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small" />
-    <style name="NotificationPrimaryText">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
     <style name="UnifiedEmailTheme" parent="@android:style/Theme.Material">
         <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="android:listViewWhiteStyle">@android:style/Widget.Material.ListView</item>
+        <item name="android:background">@android:color/background_dark</item>
     </style>
     <style name="LabelSyncTheme" parent="@android:style/Theme.Material.Dialog" />
     <style name="GmailTheme.NoActionBar" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@android:color/holo_blue_dark</item>
     </style>
     <style name="GmailTheme.NoActionBar.Fullscreen" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
-        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@android:color/holo_blue_dark</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#b31e1e1e</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ff1e1e1e</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@android:style/Widget.Material.ActionBar.TabText" />
@@ -71,9 +76,9 @@
     <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
         <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:textColorSecondary">#ffffffff</item>
-        <item name="android:textColorSecondaryInverse">#ffffffff</item>
-        <item name="android:textColorSecondaryInverseNoDisable">#ffffffff</item>
+        <item name="android:textColorSecondary">#ffcccccc</item>
+        <item name="android:textColorSecondaryInverse">#8bffffff</item>
+        <item name="android:textColorSecondaryInverseNoDisable">#8bffffff</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:textColor">#ffffffff</item>
@@ -81,8 +86,8 @@
         <item name="android:textColorTertiaryInverse">#ffffffff</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:editTextColor">#ffffffff</item>
-        <item name="android:colorPrimary">@android:color/holo_red_dark</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_red_dark</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:navigationBarColor">#ff000000</item>
     </style>
 </resources>

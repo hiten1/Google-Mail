@@ -2,10 +2,24 @@
 <resources>
     <style name="AbstractComposeArea">
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:animateLayoutChanges">true</item>
     </style>
     <style name="Platform.V11.AppCompat.Light" parent="@android:style/Theme.Holo" />
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#ffffffff</item>
+        <item name="android:textColorSecondaryInverse">#ffffffff</item>
+        <item name="android:textColorSecondaryInverseNoDisable">#ffffffff</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorTertiary">#ffffffff</item>
+        <item name="android:textColorTertiaryInverse">#ffffffff</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:editTextColor">#ffffffff</item>
+    </style>
 </resources>
